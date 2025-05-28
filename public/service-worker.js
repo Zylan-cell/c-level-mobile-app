@@ -1,18 +1,23 @@
 // Service Worker for C-Level Mobile App
 const CACHE_NAME = 'c-level-mobile-app-v1';
+
+// Base path for GitHub Pages
+const BASE_PATH = '/c-level-mobile-app';
+
+// Assets to cache
 const ASSETS = [
-  '/',
-  '/dashboard',
-  '/tasks',
-  '/briefs',
-  '/c-level',
-  '/profile',
-  '/manifest.json',
-  '/icons/icon-192x192.svg',
-  '/icons/icon-512x512.svg',
-  '/icons/maskable-icon-192x192.svg',
-  '/icons/maskable-icon-512x512.svg',
-  '/screenshots/dashboard.png'
+  `${BASE_PATH}/`,
+  `${BASE_PATH}/dashboard`,
+  `${BASE_PATH}/tasks`,
+  `${BASE_PATH}/briefs`,
+  `${BASE_PATH}/c-level`,
+  `${BASE_PATH}/profile`,
+  `${BASE_PATH}/manifest.json`,
+  `${BASE_PATH}/icons/icon-192x192.svg`,
+  `${BASE_PATH}/icons/icon-512x512.svg`,
+  `${BASE_PATH}/icons/maskable-icon-192x192.svg`,
+  `${BASE_PATH}/icons/maskable-icon-512x512.svg`,
+  `${BASE_PATH}/screenshots/dashboard.png`
 ];
 
 // Installation and caching of assets

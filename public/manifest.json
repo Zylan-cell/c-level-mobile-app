@@ -2,9 +2,9 @@
   "name": "C-Level Mobile App",
   "short_name": "C-Level",
   "description": "Mobile application for C-Level executives",
-  "start_url": "/",
-  "id": "/",
-  "scope": "/",
+  "start_url": "/c-level-mobile-app/",
+  "id": "/c-level-mobile-app/",
+  "scope": "/c-level-mobile-app/",
   "display": "standalone",
   "display_override": ["window-controls-overlay"],
   "orientation": "portrait",
@@ -13,7 +13,7 @@
   "categories": ["business", "productivity"],
   "screenshots": [
     {
-      "src": "/screenshots/dashboard.png",
+      "src": "/c-level-mobile-app/screenshots/dashboard.png",
       "sizes": "1280x720",
       "type": "image/png",
       "platform": "wide",
@@ -22,25 +22,25 @@
   ],
   "icons": [
     {
-      "src": "/icons/icon-192x192.svg",
+      "src": "/c-level-mobile-app/icons/icon-192x192.svg",
       "sizes": "192x192",
       "type": "image/svg+xml",
       "purpose": "any"
     },
     {
-      "src": "/icons/icon-512x512.svg",
+      "src": "/c-level-mobile-app/icons/icon-512x512.svg",
       "sizes": "512x512",
       "type": "image/svg+xml",
       "purpose": "any"
     },
     {
-      "src": "/icons/maskable-icon-192x192.svg",
+      "src": "/c-level-mobile-app/icons/maskable-icon-192x192.svg",
       "sizes": "192x192",
       "type": "image/svg+xml",
       "purpose": "maskable"
     },
     {
-      "src": "/icons/maskable-icon-512x512.svg",
+      "src": "/c-level-mobile-app/icons/maskable-icon-512x512.svg",
       "sizes": "512x512",
       "type": "image/svg+xml",
       "purpose": "maskable"

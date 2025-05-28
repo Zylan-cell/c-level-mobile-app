@@ -2,6 +2,13 @@ import React from 'react';
 import { TaskDetail } from '@/components/tasks/TaskDetail';
 import { mockTasks } from '@/lib/mock-data';
 
+// Генерируем статические параметры для всех задач
+export async function generateStaticParams() {
+  return mockTasks.map(task => ({
+    id: task.id,
+  }));
+}
+
 interface TaskDetailPageProps {
   params: {
     id: string;

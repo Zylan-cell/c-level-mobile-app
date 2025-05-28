@@ -2,6 +2,13 @@ import React from 'react';
 import { BriefDetail } from '@/components/briefs/BriefDetail';
 import { mockBriefs } from '@/lib/mock-data';
 
+// Генерируем статические параметры для всех брифов
+export async function generateStaticParams() {
+  return mockBriefs.map(brief => ({
+    id: brief.id,
+  }));
+}
+
 interface BriefDetailPageProps {
   params: {
     id: string;

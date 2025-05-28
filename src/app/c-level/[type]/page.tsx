@@ -6,6 +6,16 @@ import { CLevelTaskWall } from '@/components/c-level/CLevelTaskWall';
 import { CLevelType } from '@/types';
 import { mockStrategies, mockTasks } from '@/lib/mock-data';
 
+// Генерируем статические параметры для всех типов C-Level
+export async function generateStaticParams() {
+  // Список всех возможных типов C-Level
+  const types = ['CEO', 'CTO', 'CFO', 'COO'];
+  
+  return types.map(type => ({
+    type: type.toLowerCase(),
+  }));
+}
+
 interface CLevelTypePageProps {
   params: {
     type: string;

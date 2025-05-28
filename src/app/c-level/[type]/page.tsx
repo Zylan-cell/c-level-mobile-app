@@ -9,7 +9,7 @@ import { mockStrategies, mockTasks } from '@/lib/mock-data';
 // Генерируем статические параметры для всех типов C-Level
 export async function generateStaticParams() {
   // Список всех возможных типов C-Level
-  const types = ['CEO', 'CTO', 'CFO', 'COO'];
+  const types = ['CEO', 'COO', 'CMO', 'CCO', 'CTO', 'CFO'];
   
   return types.map(type => ({
     type: type.toLowerCase(),

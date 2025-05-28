@@ -57,7 +57,7 @@ jobs:
       
       - name: Build with Next.js
         run: |
-          pnpm build
+          CI=false pnpm build
         env:
           NODE_ENV: production
           NEXT_PUBLIC_BASE_PATH: "/c-level-mobile-app"
